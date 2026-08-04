@@ -6,10 +6,11 @@ This repository contains my Data Structures and Algorithms (DSA) practical progr
 
 ## 📚 Practical Programs
 
-| No. | Practical |
-|:---:|-----------|
-| 01 | Stack Implementation and Operations (view code) - (https://onecompiler.com/cpp/44wshnh39) |
-| 02 | Implementation infix to postfix using stack (view code) - (https://onecompiler.com/cpp/44wzkpbuz) |
+| No. | Practical |           |
+|:---:|-----------|-----------|
+| 01 | Stack Implementation and Operations | https://onecompiler.com/cpp/44wshnh39 |
+| 02 | Implementation infix to postfix using stack | https://onecompiler.com/cpp/44wzkpbuz |
+| 03 | Implement postfix expression evaluation using stack | https://onecompiler.com/cpp/44x96yaam | 
 
 ## 🛠️ Language Used
 
@@ -20,5 +21,6 @@ This repository contains my Data Structures and Algorithms (DSA) practical progr
 - Stack
 - Infix to Postfix Conversion
 - Operator Precedence
+- Postfix Expression Evaluation
 - Push and Pop Operations
 - LIFO (Last In, First Out)
