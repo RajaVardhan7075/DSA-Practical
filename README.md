@@ -13,6 +13,7 @@ This repository contains my Data Structures and Algorithms (DSA) practical progr
 | 03 | Implement postfix expression evaluation using stack | https://onecompiler.com/cpp/44x96yaam |
 | 04 | Tower of Hanoi Using Recursion | https://onecompiler.com/cpp/44xq8mp3v |
 | 05 | Queue Implementation and Operations | https://onecompiler.com/cpp/44xj9fhme |
+| 06 | Implement Singly linked list |    |
 
 ## 🛠️ Language Used
 
@@ -35,3 +36,9 @@ This repository contains my Data Structures and Algorithms (DSA) practical progr
 - Enqueue and Dequeue Operations
 - Traversal
 - Searching
+- Linked List
+- Nodes
+- Dynamic Memory Allocation
+- Insertion Operation
+- Traversal
+- 
