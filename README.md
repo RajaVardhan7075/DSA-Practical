@@ -14,6 +14,7 @@ This repository contains my Data Structures and Algorithms (DSA) practical progr
 | 04 | Tower of Hanoi Using Recursion | https://onecompiler.com/cpp/44xq8mp3v |
 | 05 | Queue Implementation and Operations | https://onecompiler.com/cpp/44xj9fhme |
 | 06 | Implement Singly linked list |    |
+| 6.1 | Singly linkedlist Insertions | https://onecompiler.com/cpp/44zexm2g5 |
 
 ## 🛠️ Language Used
 
