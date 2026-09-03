@@ -37,6 +37,15 @@ class Delete{
         }
     }
     
+    void insert_at_begining(int value){
+        Node* newnode = new Node();
+        newnode->data = value;
+        newnode->next = head;
+        newnode->prev = nullptr;
+        head->prev = newnode;
+        head = newnode;
+    }
+    
     void display(){
         Node* temp = head;
         while(temp != nullptr){
@@ -61,5 +70,9 @@ int main(){
     d.insert_at_end(10);
     d.insert_at_end(20);
     d.insert_at_end(30);
+    d.display();
+    
+    d.insert_at_begining(9);
+    d.insert_at_begining(8);
     d.display();
 }
