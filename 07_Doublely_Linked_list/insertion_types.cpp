@@ -45,6 +45,37 @@ class Delete{
         head->prev = newnode;
         head = newnode;
     }
+
+    void insert_at_position(int value, int target){
+
+    Node* temp = head;
+
+    while(temp != nullptr){
+
+        if(temp->data == target){
+
+            Node* newnode = new Node();
+
+            newnode->data = value;
+
+            newnode->prev = temp;
+            newnode->next = temp->next;
+
+            if(temp->next != nullptr){
+                temp->next->prev = newnode;
+            }
+            else{
+                rev_head = newnode;
+            }
+
+            temp->next = newnode;
+
+            return;
+        }
+
+        temp = temp->next;
+    }
+}
     
     void display(){
         Node* temp = head;
@@ -74,5 +105,8 @@ int main(){
     
     d.insert_at_begining(9);
     d.insert_at_begining(8);
+    d.display();
+
+    d.insert_at_position(15,10);
     d.display();
 }
